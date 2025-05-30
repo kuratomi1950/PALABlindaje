@@ -1,0 +1,132 @@
+html{
+    background-color: #F7F0E8;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    position: absolute;
+    padding-right: 5rem;
+  
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.palaLogo{
+    padding-right: 70rem;
+}
+
+.orangeTop{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #FF6B00;
+    padding-bottom: 7rem;
+}
+
+.orangeTop::after {
+content: "";
+position: absolute;
+left: 0;
+right: 0;
+top: 24rem;
+height: 10rem;
+background-color: #F7F0E8;
+transform:skewY(-2.3deg);
+z-index: 0;
+
+}
+
+.middleSection{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin: auto;
+    z-index: 1;
+}
+
+
+
+
+.videoPlayer{
+    border-radius: 5%;
+    z-index: 1;
+}
+
+
+
+.testimoniosButton{
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 4rem;
+   
+}
+
+.agendar{
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+
+}
+
+
+.testimoniosContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 13rem;
+    gap: 8rem;
+}
+
+.card_testimonio_1 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+
+
+.card_testimonio_1 > img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.footerSectionContainer{
+    background-color: #1919b4;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 4rem;
+    
+}
+
+.socialMediaImages{
+    text-align: center;
+}
+
+.socialMediaImages > img{
+    padding: 1rem;
+    width: 50px;
+}
