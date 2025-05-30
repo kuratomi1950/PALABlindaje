@@ -1,5 +1,22 @@
+
+@font-face {
+    font-family: "Nesatho";
+    src: url(Nesatho.ttf);
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url(CoolveticaRg.otf);
+}
+
+@font-face {
+    font-family: "Acumin";
+    src: url(Acumin-RPro.otf);
+}
+
 html{
     background-color: #F7F0E8;
+   
 }
 
 body{
@@ -10,15 +27,49 @@ h1{
     text-align: center;
     position: absolute;
     padding-right: 5rem;
-  
+    font-family: "Nesatho";
+    font-size: 2.5rem;
+    color: #F7F0E8;
+}
+
+
+button{
+    padding: 1.2rem;
+    border: 0;
+    border-radius: 2rem;
+    background-color: #FF6B00;
+    font-family: "Coolvetica";
+    font-size: 2rem;
+    box-shadow: 2px 2px 1rem;
+    transition-duration: 0.2s;
+
+}
+
+
+.blueAccent{
+    color: #1919b4;
+    font-size: 3.5rem;
+}
+
+.orangeAccent{
+    color: #FF6B00;
+    font-size: 2rem;
 }
 
 h2{
     text-align: center;
+    font-family: "Acumin";
+    font-size: large;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 h3{
     text-align: center;
+    font-family: "Coolvetica";
+    font-weight: 50;
+    color: #F7F0E8;
+
 }
 
 .palaLogo{
@@ -43,8 +94,16 @@ top: 24rem;
 height: 10rem;
 background-color: #F7F0E8;
 transform:skewY(-2.3deg);
+box-shadow: 1px 1px 5rem #56555a ;
 z-index: 0;
+}
 
+.leftMiddleText > .text{
+position: relative;
+top: 4rem;
+text-align: center;
+font-family: "Coolvetica";
+font-size: 1.5rem;
 }
 
 .middleSection{
@@ -60,13 +119,10 @@ z-index: 0;
 }
 
 
-
-
-.videoPlayer{
-    border-radius: 5%;
+.videoYoutube{
+    border-radius: 2rem;
     z-index: 1;
 }
-
 
 
 .testimoniosButton{
@@ -74,15 +130,22 @@ z-index: 0;
     display: block;
     margin: auto;
     margin-top: 4rem;
-   
 }
 
 .agendar{
     position: relative;
     display: block;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    text-decoration: none;
+}
 
+.agendar:hover{
+    background-color: #e24f0a;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 1.5rem;
 }
 
 
@@ -94,7 +157,6 @@ z-index: 0;
     flex-wrap: wrap;
     margin: auto;
     padding-top: 4rem;
-    padding-bottom: 13rem;
     gap: 8rem;
 }
 
@@ -103,30 +165,60 @@ z-index: 0;
     height: 250px;
     object-fit: cover;
     border-radius: 5%;
+    box-shadow: 10px 15px 3rem #56555a;
+    padding-bottom: 10rem;
+    transition-duration: 0.2s;
+ 
 }
-
 
 
 .card_testimonio_1 > img{
     width: 250px;
     height: 250px;
     object-fit: cover;
-    border-radius: 5%;
+}
+
+.card_testimonio_1:hover{
+background-color: #e24f0a;
+height: 20rem;
 }
 
 .footerSectionContainer{
     background-color: #1919b4;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     margin-top: 4rem;
-    
+    box-shadow: 5px 5px 3rem;
 }
+
+
 
 .socialMediaImages{
     text-align: center;
+    
 }
 
-.socialMediaImages > img{
-    padding: 1rem;
-    width: 50px;
+
+.topButton{
+margin-top: 5rem;
+
 }
+
+.topButton:hover{
+    background-color: #e24f0a;
+    cursor: pointer;
+    padding: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a > img{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 5rem;
+}
+
+
