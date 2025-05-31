@@ -24,14 +24,10 @@ body{
 }
 
 h1{
-    text-align: center;
-    position: absolute;
-    padding-right: 5rem;
     font-family: "Nesatho";
     font-size: 2.5rem;
     color: #F7F0E8;
 }
-
 
 button{
     padding: 1.2rem;
@@ -48,12 +44,12 @@ button{
 
 .blueAccent{
     color: #1919b4;
-    font-size: 3.5rem;
+    
 }
 
 .orangeAccent{
     color: #FF6B00;
-    font-size: 2rem;
+    
 }
 
 h2{
@@ -72,17 +68,17 @@ h3{
 
 }
 
-.palaLogo{
-    padding-right: 70rem;
-}
+
 
 .orangeTop{
-    display: inline-flex;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    margin: auto;
     background-color: #FF6B00;
     padding-bottom: 7rem;
+    margin-bottom: 3rem;
 }
 
 .orangeTop::after {
@@ -90,7 +86,7 @@ content: "";
 position: absolute;
 left: 0;
 right: 0;
-top: 24rem;
+top: 18rem;
 height: 10rem;
 background-color: #F7F0E8;
 transform:skewY(-2.3deg);
@@ -98,13 +94,24 @@ box-shadow: 1px 1px 5rem #56555a ;
 z-index: 0;
 }
 
-.leftMiddleText > .text{
+.leftMiddleText > .textOne{
 position: relative;
 top: 4rem;
 text-align: center;
 font-family: "Coolvetica";
 font-size: 1.5rem;
 }
+
+
+.leftMiddleText > .textTwo{
+position: relative;
+top: 4rem;
+text-align: center;
+font-family: "Coolvetica";
+font-size: 1.5rem;
+color: #1919b4;
+}
+
 
 .middleSection{
     position: relative;
@@ -119,17 +126,16 @@ font-size: 1.5rem;
 }
 
 
-.videoYoutube{
-    border-radius: 2rem;
-    z-index: 1;
-}
-
-
-.testimoniosButton{
-    position: relative;
-    display: block;
+.testimoniosText{
+    
+    box-shadow: 2px 2px 4rem #a5a19d;
+    padding: 1rem;
+    text-align: center;
+    font-family: "Coolvetica";
+    font-size: 2rem;
     margin: auto;
-    margin-top: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 1.5rem;
 }
 
 .agendar{
@@ -166,7 +172,7 @@ font-size: 1.5rem;
     object-fit: cover;
     border-radius: 5%;
     box-shadow: 10px 15px 3rem #56555a;
-    padding-bottom: 10rem;
+    padding-bottom: 11rem;
     transition-duration: 0.2s;
  
 }
@@ -174,7 +180,7 @@ font-size: 1.5rem;
 
 .card_testimonio_1 > img{
     width: 250px;
-    height: 250px;
+    height: 260px;
     object-fit: cover;
 }
 
@@ -221,4 +227,81 @@ a > img{
     width: 5rem;
 }
 
+.videoSection{
+    display: flex;
+     width: 50rem;
+}
+
+iframe{
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
+@media (max-width: 957px){
+
+.orangeTop::after {
+content: "";
+position: absolute;
+left: 0;
+right: 0;
+top: 25rem;
+height: 10rem;
+background-color: #F7F0E8;
+transform:skewY(-2.3deg);
+box-shadow: 1px 1px 5rem #56555a ;
+z-index: 0;
+}
+
+
+}
+
+@media (max-width: 957px){
+
+.orangeTop::after {
+content: "";
+position: absolute;
+left: 0;
+right: 0;
+top: 25rem;
+height: 10rem;
+background-color: #F7F0E8;
+transform:skewY(-2.3deg);
+box-shadow: 1px 1px 5rem #56555a ;
+z-index: 0;
+}
+
+h1{
+    font-family: "Nesatho";
+    text-align: center;
+    font-size: 2.5rem;
+    color: #F7F0E8;
+}
+
+
+}
+
+@media (max-width: 450px){
+
+.orangeTop::after {
+content: "";
+position: absolute;
+left: 0;
+right: 0;
+top: 30rem;
+height: 10rem;
+background-color: #F7F0E8;
+transform:skewY(-2.3deg);
+box-shadow: 1px 1px 5rem #56555a ;
+z-index: 0;
+}
+
+h1{
+    font-family: "Nesatho";
+    text-align: center;
+    font-size: 2.5rem;
+    color: #F7F0E8;
+}
+
+
+}
 
